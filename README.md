@@ -29,6 +29,19 @@
     python train.py
     ```
 
+5. **Save the trained model:**
+
+    ```python
+    # Inside train.py, after training the model
+    sentiment_model.model.save_weights('sentiment_model.h5')
+    ```
+
+6. **Run the evaluation script:**
+
+    ```sh
+    python evaluate.py
+    ```
+
 ## Project Structure
 
 - `data/`: Contains the dataset.
@@ -37,3 +50,4 @@
 - `src/preprocessing.py`: Script to preprocess the data.
 - `src/sentiment_model.py`: Script to define the sentiment analysis model.
 - `src/train.py`: Script to train the model.
+- `src/evaluate.py`: Script to evaluate the trained model.
