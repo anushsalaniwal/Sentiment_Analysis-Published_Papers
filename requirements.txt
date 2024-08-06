@@ -1,0 +1,10 @@
+tensorflow==2.17.0
+tensorflow_hub
+tensorflow_text==2.17.0
+numpy
+scikit-learn
+nltk
+pandas
+matplotlib
+seaborn
+jupyter
